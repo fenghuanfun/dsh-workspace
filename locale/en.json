@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Source directories",
+    "description": "Add or remove extra source directories for a workspace, beside its own directory, with the same permissions.",
+    "detail": "docs/DETAIL.md"
+  }
+}

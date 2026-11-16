@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "源目录",
+    "description": "为工作区添加或移除额外的源目录，与原目录同权限。",
+    "detail": "docs/DETAIL.md"
+  }
+}
