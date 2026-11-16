@@ -44,6 +44,8 @@ npm test
 
 `test/host.mjs` drives the two routes and the per-agent effects through a fake Cordis context: validation, dedupe and nesting, per-workspace isolation, atomic writes, serialized concurrent saves, failed-write rollback, session grants and prompt text.
 
+GitHub Actions runs the same suite on every push and pull request (`.github/workflows/test.yml`).
+
 ## Behaviour and limits
 
 - The session working directory stays the workspace directory: relative paths, `bash` cwd and the file tree still follow it.
